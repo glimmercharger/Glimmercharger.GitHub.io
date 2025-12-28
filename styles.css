@@ -207,8 +207,9 @@ a {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 400px;
+    padding-left: 0;
 }
 
 .floating-shape {
@@ -217,6 +218,7 @@ a {
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     animation: float 6s ease-in-out infinite;
+    margin-right: auto;
 }
 
 @keyframes float {
